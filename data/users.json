@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "firstname": "John Paul",
+        "lastname": "Sim",
+        "middlename": "R",
+        "user_type": "egant"
+    }, 
+    {
+        "id": 2,
+        "firstname": "Roberto",
+        "lastname": "Morales",
+        "middlename": "P",
+        "user_type": "egant"
+    }
+]

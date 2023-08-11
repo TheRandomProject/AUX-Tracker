@@ -3,31 +3,27 @@ const columns = [{
     key: 'id',
     label: 'ID'
   }, {
-    key: 'firstname',
-    label: 'Firstname',
+    key: 'name',
+    label: 'Fullname',
     sortable: true
   }, {
-    key: 'lastname',
-    label: 'Lastname',
+    key: 'type',
+    label: 'Type',
     sortable: true
   }, {
-    key: 'middlename',
-    label: 'Middlename',
-    sortable: true,
-  }, {
-    key: 'user_type',
-    label: 'Role'
+    key: 'created_at',
+    label: 'Create at',
+    sortable: true
   }];
 
-import peopleData from '@/data/users.json'; // Import the JSON data
+import peopleData from '@/data/auxs.json'; // Import the JSON data
 
 // Transform the data to match the structure expected by the table
 const people = peopleData.map(person => ({ 
   id: person.id, 
-  firstname: person.firstname, 
-  lastname: person.lastname, 
-  middlename: person.middlename, 
-  user_type: person.user_type 
+  name: person.name, 
+  type: person.type, 
+  created_at: person.created_at, 
 }))
 
 const q = ref('')

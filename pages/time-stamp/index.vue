@@ -21,7 +21,7 @@ const type = [
   { id: 6, label: 'Second 15 Min' }
 ]
 
-const selected = ref([people[3]])
+const selected = ref([people[1]])
 
 </script>
 
